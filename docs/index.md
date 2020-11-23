@@ -1,37 +1,84 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
 
-You can use the [editor on GitHub](https://github.com/Pegasus-01/Sample-E-Commerce-Website/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<title>Lifestyle Store</title>
+<link rel="shortcut icon" href="./img/srtcticon.png" type="image/png" >
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<link  href="index.css" rel="stylesheet" type="text/css"/>
 
-### Markdown
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo"><a href="#">Lifestyle Store</a></div>
+            <div class="header-link"><a href="signup.php">Sign Up</a> </div>
+            <div class="header-link"><a href="login.php">Log In</a> </div>
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <div class="content">
+       <div class="banner-image">
+           <div class="inner-banner-image">
+              <center>
+               <div class="banner_content">
+                   <h1>We sell lifestyle.</h1>
+                    <p>Flat 40% OFF on premium brands</p>
+                    <a href="newpage.php" target="_blank">
 
-# Header 1
-## Header 2
-### Header 3
+                            <center>
+                                <input class="button" type="button" value="Shop Now">
+                            </center>
+                    </a>
+                </div>
+              </center>
+           </div>
+        </div>
 
-- Bulleted
-- List
+            </div>
 
-1. Numbered
-2. List
+    <div class="container">
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+        <div class="items">
+            <a href="#" >
+                <img src="img/camera.jpg" alt="cameras" class="thumbnail">
+                    <div class="caption">         <h2>Cameras</h2>
+                        <p>Choose among the best available in the world.</p>
+                    </div>
+            </a>
+        </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+        <div class="items">
+            <a href="#" >
+                <img src="img/watch.jpg" alt="watches" class="thumbnail">
+                    <div class="caption">         <h2>Watches</h2>
+                        <p>Original watches from the best brands.</p>
+                    </div>
+            </a>
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Pegasus-01/Sample-E-Commerce-Website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+        <div class="items">
+            <a href="lifestyle.com/shirts">
+                <img src="img/shirt.jpg" alt="shirts" class="thumbnail">
+                    <div class="caption">         <h2>Shirts</h2>
+                        <p>Our exquisite collection of shirts.</p>
+                    </div>
+            </a>
+        </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    </div>
+
+<!--footer-->
+
+        <footer class="footer">
+            Copyright&copy; Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000
+        </footer>
+
+
+
+</body>
+</html>
